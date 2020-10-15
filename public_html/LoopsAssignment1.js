@@ -6,7 +6,8 @@
 document.write("This program displays the numbers 0 to 1000 by 10's");
 let counter = 0;
 while (counter <= 1000){
-    counter++;
+ document.write("<br>"+ counter);
+    counter = counter+10;
     
 }
-
+document.write("<br>Hallelujah!");
